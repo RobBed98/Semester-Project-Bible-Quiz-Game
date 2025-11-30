@@ -65,4 +65,24 @@ for (Question q : quiz) {
             }
         }
     }
+// After final scores
+System.out.println("Scores:");
+for (Player p : players) {
+        System.out.println(p.getName() + ": " + p.getScore());
+    }
+
+    boolean userWon = true;
+for (int i = 1; i < players.size(); i++) {
+        if (players.get(i).getScore() > players.get(0).getScore()) {
+            userWon = false;
+        }
+    }
+
+if (userWon) {
+        System.out.println("Congratulations! You win!");
+        System.out.println("“Pride goes before destruction...” (Proverbs 16:18)");
+    } else {
+        System.out.println("You lost. Keep trying!");
+        System.out.println("“I can do all things through Christ...” (Philippians 4:13)");
+    }
 }
