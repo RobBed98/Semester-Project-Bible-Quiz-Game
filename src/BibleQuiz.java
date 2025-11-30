@@ -24,7 +24,7 @@ import java.util.*;
  * - NPCs have difficulty-based random correctness (never 100%)
  * - Encouraging verse shown on wrong answers and if you lose
  * - Humility message if you win + congrats + final scores
- * - Play again returns to main screen
+ * - Play again feature returns to main screen
  */
 public class BibleQuiz {
 
