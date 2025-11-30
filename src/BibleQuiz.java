@@ -20,7 +20,7 @@ import java.util.*;
  * - 10 rounds, increasing point values
  * - Players: You, Moses, Noah, Adam
  * - Round counter (top-right), scoreboard (bottom-left)
- * - 4-choice questions, answer with 1–4
+ * - 4-choice questions, answer with 1–4.
  * - NPCs have difficulty-based random correctness (never 100%)
  * - Encouraging verse shown on wrong answers and if you lose
  * - Humility message if you win + congrats + final scores
